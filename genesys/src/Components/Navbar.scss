@@ -1,41 +1,23 @@
-nav{
+.sidebar{
     position: fixed;
-    left: 0;
     top: 0;
-    height: 100vh;        
-    width: 60px;          
-    background-color: #222;
-     display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 20px 0;
-    box-sizing: border-box;
+    left: 0;
+    bottom: 0;
 
-    .barraLateralMenu {
-     display: flex;
+    .sidebar-nav{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
     flex-direction: column;
-     gap: 20px;
-}
-    
-    .logoff{
+    justify-content: space-between;
+    }
+
+    .barraLateralMenu{
         display: flex;
-        align-items: end;
-    }
-
-    button{
-        // background: none;
-        // border: none;
-        cursor: pointer;
-        padding: 10px;
-
-        img{
-            width: 24px;
-            height: 24px;
-            object-fit: contain;
-        }
+        flex-direction: column;
     }
 
     
 }
+
 

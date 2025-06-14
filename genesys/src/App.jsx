@@ -5,9 +5,9 @@ import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
-    <div>Genesys
+    <div className='divApp'>Genesys
       <Navbar/>
-      <Outlet/>
+      <main><Outlet/></main>
     </div>
     
   )
